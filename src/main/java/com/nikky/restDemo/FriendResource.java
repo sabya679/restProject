@@ -28,7 +28,7 @@ public class FriendResource {
 		Friend friend = repo.getFriend(id);
 				
 		return "Name of employee is "+friend.getName()
-				+", Contact number is "+ friend.getNumber()+" and he is staying at "
+				+", Contact number is "+ friend.getNumber()+" and he/she is staying at "
 				+friend.getAddress();
 	}
 }
